@@ -41,7 +41,7 @@ const Home = () => {
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold mb-6 leading-tight tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-sky-600 to-cyan-500 drop-shadow-[0_0_8px_rgba(56,189,248,0.3)]">
             International Conference on Economics, Business, and Management
           </h1>
-          <p className="text-2xl md:text-3xl mb-4 font-semibold text-sky-700">
+          <p className="text-2xl md:text-3xl mb-4 font-bold text-sky-700">
             ICEBM, 2026
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 text-lg mb-8 text-[#1e293b]">
