@@ -51,17 +51,13 @@ const Home = () => {
             </div>
             <div className="hidden sm:block text-sky-400 font-light">|</div>
             <div className="flex items-center gap-2">
-              <MapPin className="h-5 w-5 text-cyan-500" />
-              <span className="font-medium">Kolkata, India</span>
+              <span className="font-semibold text-cyan-500">VENUE</span> {/* Removed h-5 w-5, added font-semibold for better visual weight */}
+              <span className="font-medium">
+                The Photovoltaic Institute of Île-de-France, Paris, France
+              </span>
             </div>
           </div>
-          <p className="text-lg mb-10 text-slate-700">
-            Organized by{" "}
-            <span className="font-semibold text-sky-600">
-              Institute of Engineering & Management (IEM)
-            </span>
-            , Kolkata
-          </p>
+
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
               asChild
