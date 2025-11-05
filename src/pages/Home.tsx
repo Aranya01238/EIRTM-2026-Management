@@ -51,10 +51,9 @@ const Home = () => {
             </div>
             <div className="hidden sm:block text-sky-400 font-light">|</div>
             <div className="flex items-center gap-2">
-              <span className="font-semibold text-cyan-500">VENUE</span>{" "}
-              {/* Removed h-5 w-5, added font-semibold for better visual weight */}
               <span className="font-medium">
-                The Photovoltaic Institute of Île-de-France, Paris, France
+                <span className="font-bold">Venue:</span> The Photovoltaic
+                Institute of Île-de-France, Paris, France{" "}
               </span>
             </div>
           </div>
