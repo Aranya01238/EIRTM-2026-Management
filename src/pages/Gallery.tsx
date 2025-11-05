@@ -13,8 +13,9 @@ const Gallery = () => {
           <h1 className="text-primary mb-4">Gallery</h1>
           <div className="w-24 h-1 bg-gradient-primary mx-auto mb-6"></div>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Explore moments from previous EIRTM conferences and related events. Witness the
-            collaboration, innovation, and networking that make EIRTM a premier academic gathering.
+            Explore moments from previous EIRTM conferences and related events.
+            Witness the collaboration, innovation, and networking that make
+            ICEBM a premier academic gathering.
           </p>
         </div>
 
@@ -23,9 +24,9 @@ const Gallery = () => {
           <ImageIcon className="h-16 w-16 text-secondary mx-auto mb-4" />
           <h2 className="text-2xl font-bold mb-3">Gallery Coming Soon</h2>
           <p className="text-lg text-muted-foreground">
-            Photos from EIRTM 2025 will be uploaded here during and after the conference. Check
-            back soon to see highlights from keynote sessions, paper presentations, networking
-            events, and more.
+            Photos from ICEBM 2026 will be uploaded here during and after the
+            conference. Check back soon to see highlights from keynote sessions,
+            paper presentations, networking events, and more.
           </p>
         </Card>
 
@@ -38,7 +39,9 @@ const Gallery = () => {
             >
               <div className="text-center p-6">
                 <ImageIcon className="h-12 w-12 text-muted-foreground mx-auto mb-2 opacity-30" />
-                <p className="text-sm text-muted-foreground">Image {index + 1}</p>
+                <p className="text-sm text-muted-foreground">
+                  Image {index + 1}
+                </p>
               </div>
             </Card>
           ))}
@@ -47,7 +50,7 @@ const Gallery = () => {
         {/* Past Conference Highlights */}
         <div className="mt-16">
           <h2 className="text-3xl font-bold text-center mb-8 text-primary">
-            What to Expect at EIRTM 2025
+            What to Expect at ICEBM 2026
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Card className="p-6 text-center">
@@ -84,10 +87,12 @@ const Gallery = () => {
 
         {/* Photo Submission */}
         <Card className="p-8 mt-12 bg-muted border-t-4 border-t-primary">
-          <h2 className="text-2xl font-bold mb-4 text-primary">Share Your EIRTM Moments</h2>
+          <h2 className="text-2xl font-bold mb-4 text-primary">
+            Share Your ICEBM Moments
+          </h2>
           <p className="text-lg text-muted-foreground mb-4">
-            Attended a previous EIRTM conference? We'd love to feature your photos in our gallery!
-            Send your high-resolution images to us.
+            Attended a previous EIRTM conference? We'd love to feature your
+            photos in our gallery! Send your high-resolution images to us.
           </p>
           <p className="text-muted-foreground">
             Email:{" "}

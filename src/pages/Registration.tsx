@@ -53,7 +53,7 @@ const Registration = () => {
           <h1 className="text-primary mb-4">Registration</h1>
           <div className="w-24 h-1 bg-gradient-primary mx-auto mb-6"></div>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Register for EIRTM 2026 and be part of an exciting academic event.
+            Register for ICEBM 2026 and be part of an exciting academic event.
             Early bird registration closes on "".
           </p>
         </div>
@@ -170,7 +170,7 @@ const Registration = () => {
                     <strong>Bank Name:</strong> State Bank of India
                   </p>
                   <p>
-                    <strong>Account Name:</strong> EIRTM 2025
+                    <strong>Account Name:</strong> ICEBM 2026
                   </p>
                   <p>
                     <strong>Account Number:</strong> XXXX XXXX XXXX
@@ -230,7 +230,7 @@ const Registration = () => {
                 <span className="text-secondary font-bold text-xl">4.</span>
                 <div>
                   <strong>Submit Proof:</strong> Email payment proof to
-                  registration@eirtm2026.org
+                  registration@icebm2026.org
                 </div>
               </li>
               <li className="flex gap-3">
@@ -248,7 +248,7 @@ const Registration = () => {
         <Card className="p-12 text-center bg-gradient-primary text-white">
           <h2 className="text-4xl font-bold mb-4">Register Now</h2>
           <p className="text-xl mb-8 opacity-90">
-            Secure your spot at EIRTM 2026 with early bird rates
+            Secure your spot at ICEBM 2026 with early bird rates
           </p>
           <Button
             size="lg"
@@ -257,7 +257,7 @@ const Registration = () => {
             Complete Registration
           </Button>
           <p className="mt-6 text-sm opacity-75">
-            For registration queries, contact: registration@eirtm2026.org
+            For registration queries, contact: registration@icebm2026.org
           </p>
         </Card>
 

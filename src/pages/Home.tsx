@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Calendar, MapPin, Users, BookOpen, Award, Cpu } from "lucide-react";
 import { motion } from "framer-motion";
-import heroBg from "@/assets/hero-bg.jpg";
+import heroBg from "@/assets/image.jpg";
 
 const importantDates = [
   { label: "Full Paper Submission", date: "10th November, 2025" },
@@ -14,17 +14,17 @@ const importantDates = [
 ];
 
 const tracks = [
-  "Cognitive Systems & Cognitive AI",
-  "IoT & Data Science",
-  "Information Technology & Software Systems",
-  "Mobile Communication & Networking",
-  "Artificial Intelligence & Machine Learning",
-  "Robotics and its Applications",
+  "Business",
+  "Management",
+  "Accounting & Banking",
+  "Finance",
+  "Economics",
+  "Marketing & E-Commerce",
 ];
 
 const Home = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-sky-50 text-[#0f172a] font-sans">
+    <div className="min-h-screen bg-sky-100 text-[#0f172a] font-sans">
       {/* Hero Section */}
       <section
         className="relative flex items-center justify-center text-center min-h-[90vh] bg-cover bg-center"
@@ -39,11 +39,10 @@ const Home = () => {
           transition={{ duration: 1 }}
         >
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold mb-6 leading-tight tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-sky-600 to-cyan-500 drop-shadow-[0_0_8px_rgba(56,189,248,0.3)]">
-            ICECIT 2026
+            ICEBM 2026
           </h1>
           <p className="text-2xl md:text-3xl mb-4 font-semibold text-sky-700">
-            International Conference on Emerging Computing & Innovative
-            Technologies
+            International Conference on Economics, Business, and Management
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 text-lg mb-8 text-[#1e293b]">
             <div className="flex items-center gap-2">
@@ -86,33 +85,33 @@ const Home = () => {
       {/* About Section */}
       <section className="py-20 px-6 bg-gradient-to-b from-blue-50 to-white text-center">
         <h2 className="text-4xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-sky-600 to-cyan-500">
-          About ICECIT 2026
+          About ICEBM 2026
         </h2>
         <div className="w-24 h-1 bg-gradient-to-r from-sky-400 to-cyan-400 mx-auto mb-10 rounded"></div>
         <p className="max-w-4xl mx-auto text-lg leading-relaxed text-[#1e293b] font-medium">
-          The International Conference on Emerging Computing and Innovative
-          Technologies (ICECIT 2026) provides a global platform to exchange
-          ideas and discoveries across domains like AI, IoT, Data Science, and
-          Robotics — uniting academia, research, and industry in shaping the
-          digital future.
+          The International Conference on Economics, Business, and Management
+          (ICEBM 2026) is a premier global platform fostering collaboration
+          between academia, industry, and researchers to explore modern trends
+          and challenges in economics, business innovation, and sustainable
+          management strategies shaping the global economy.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 max-w-6xl mx-auto">
           {[
             {
               icon: <Users className="h-8 w-8 text-sky-600" />,
-              title: "Global Collaboration",
-              desc: "Engage with leading minds and innovators from across the world.",
+              title: "Global Networking",
+              desc: "Collaborate with economists, entrepreneurs, and researchers from around the world.",
             },
             {
               icon: <BookOpen className="h-8 w-8 text-sky-600" />,
-              title: "Indexed Publications",
-              desc: "Publish your work in high-impact, peer-reviewed conference proceedings.",
+              title: "Research Excellence",
+              desc: "Showcase innovative research and get published in high-impact indexed proceedings.",
             },
             {
               icon: <Award className="h-8 w-8 text-sky-600" />,
-              title: "Keynote Speakers",
-              desc: "Gain insights from pioneers in technology, AI, and innovation.",
+              title: "Expert Insights",
+              desc: "Hear from global leaders and industry experts on emerging economic and management trends.",
             },
           ].map((card, i) => (
             <motion.div
@@ -141,8 +140,8 @@ const Home = () => {
         </h2>
         <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-sky-500 mx-auto mb-10 rounded"></div>
         <p className="text-[#1e293b] text-lg mb-12 max-w-3xl mx-auto font-medium">
-          ICECIT 2026 welcomes original, impactful research contributions under
-          the following thematic domains:
+          ICEBM 2026 invites contributions under the following major tracks and
+          focus areas:
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto px-6">
@@ -160,6 +159,62 @@ const Home = () => {
               </Card>
             </motion.div>
           ))}
+        </div>
+
+        {/* Track Descriptions */}
+        <div className="max-w-5xl mx-auto mt-12 text-left text-[#334155] space-y-8">
+          <div>
+            <h3 className="text-2xl font-bold text-sky-700 mb-2">Business</h3>
+            <p>
+              Includes topics such as Branding, Business Models, Leadership,
+              Planning, Corporate Governance, Negotiation, Risk Management, and
+              Venture Capital fostering innovation and competitive strategy.
+            </p>
+          </div>
+          <div>
+            <h3 className="text-2xl font-bold text-sky-700 mb-2">Management</h3>
+            <p>
+              Covers Human Resource Management, Operations Management, Strategic
+              Planning, Financial and Quality Management, Sustainability, and
+              Project Management to enhance global leadership practices.
+            </p>
+          </div>
+          <div>
+            <h3 className="text-2xl font-bold text-sky-700 mb-2">
+              Accounting & Banking
+            </h3>
+            <p>
+              Encompasses Accounting Ethics, Cost Accounting, Corporate
+              Accounting, Monetary Policy, Stock Market, and Islamic Banking,
+              focusing on transparency and financial inclusion.
+            </p>
+          </div>
+          <div>
+            <h3 className="text-2xl font-bold text-sky-700 mb-2">Finance</h3>
+            <p>
+              Topics include Corporate Finance, Financial Risk Management,
+              Behavioral Finance, Venture Capital Financing, Hedge Funds, and
+              Financial Regulations driving innovation in the financial sector.
+            </p>
+          </div>
+          <div>
+            <h3 className="text-2xl font-bold text-sky-700 mb-2">Economics</h3>
+            <p>
+              Focuses on Economic Development, Fiscal Policy, International
+              Economics, Inflation, Employment, and Economic Systems shaping
+              national and global growth paradigms.
+            </p>
+          </div>
+          <div>
+            <h3 className="text-2xl font-bold text-sky-700 mb-2">
+              Marketing & E-Commerce
+            </h3>
+            <p>
+              Includes Digital Marketing, Consumer Behavior, AI in Retail,
+              Cross-Border E-commerce, Data Privacy, Blockchain Security, and
+              Smart Logistics transforming the digital business landscape.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -192,11 +247,11 @@ const Home = () => {
       {/* CTA Section */}
       <section className="py-24 text-center bg-gradient-to-b from-white to-blue-50">
         <h2 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-sky-600 to-cyan-500 mb-6">
-          Join ICECIT 2026
+          Join ICEBM 2026
         </h2>
         <p className="text-[#1e293b] text-lg mb-10 max-w-3xl mx-auto font-medium">
-          Join an international gathering of innovators shaping the next era of
-          computing, data science, and technology.
+          Be part of a global forum redefining the future of economics,
+          management, and digital business ecosystems.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button

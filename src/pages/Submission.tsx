@@ -27,7 +27,7 @@ const Submission = () => {
           <p className="text-lg text-slate-700 max-w-3xl mx-auto leading-relaxed">
             Submit your research paper through our official submission system.
             Please review all guidelines carefully before submission to ensure
-            compliance with ICECIT 2026 publication standards.
+            compliance with ICEBM 2026 publication standards.
           </p>
         </motion.div>
 

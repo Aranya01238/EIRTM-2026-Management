@@ -12,19 +12,18 @@ export const Footer = () => {
           {/* About Section */}
           <div>
             <h3 className="text-2xl font-bold mb-4 text-cyan-700">
-              ICECIT 2026
+              ICEBM 2026
             </h3>
             <p className="text-sm text-slate-600 mb-3 leading-relaxed">
               <strong>
-                International Conference on Emerging Computing and Innovative
-                Technologies
+                International Conference on Economics, Business, and Management
               </strong>
               <br />
               Organized by the Institute of Engineering & Management, Kolkata
             </p>
             <p className="text-sm text-slate-500">
-              Join leading researchers, engineers, and innovators across the
-              globe to explore breakthroughs shaping tomorrow.
+              Join global thought leaders, researchers, and industry experts to
+              explore advancements shaping the future of business and economics.
             </p>
           </div>
 
@@ -73,10 +72,10 @@ export const Footer = () => {
                   <Mail className="h-5 w-5 text-cyan-700" />
                 </div>
                 <a
-                  href="mailto:info@icecit2026.org"
+                  href="mailto:info@icebm2026.org"
                   className="hover:text-cyan-600 transition-colors"
                 >
-                  info@icecit2026.org
+                  info@icebm2026.org
                 </a>
               </li>
               <li className="flex items-center gap-3">
@@ -116,7 +115,7 @@ export const Footer = () => {
         {/* Footer Bottom */}
         <div className="text-center text-sm text-slate-500">
           <p>
-            © 2026 ICECIT | Organized by Institute of Engineering & Management,
+            © 2026 ICEBM | Organized by Institute of Engineering & Management,
             Kolkata
           </p>
           <p className="mt-1">

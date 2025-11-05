@@ -41,7 +41,7 @@ const KeynoteSpeakers = () => {
           </h1>
           <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-sky-500 mx-auto mb-6 rounded"></div>
           <p className="text-lg text-[#1e293b] max-w-3xl mx-auto leading-relaxed">
-            <span className="font-semibold text-sky-600">ICECIT 2026</span> will
+            <span className="font-semibold text-sky-600">ICEBM 2026</span> will
             feature a lineup of distinguished keynote speakers from across the
             globe. Our confirmed speaker list will be announced soon — stay
             tuned for updates!
@@ -96,8 +96,8 @@ const KeynoteSpeakers = () => {
             </h2>
             <p className="text-lg opacity-90 max-w-3xl mx-auto leading-relaxed">
               We’re curating an exceptional lineup of thought leaders,
-              innovators, and global experts in computing, AI, IoT, and
-              sustainable technology.
+              innovators, and global experts in economics, business management,
+              entrepreneurship, and sustainability.
               <span className="font-semibold text-white">
                 {" "}
                 Stay tuned for official announcements!
@@ -120,20 +120,20 @@ const KeynoteSpeakers = () => {
         >
           <Card className="p-10 bg-gradient-to-br from-blue-100 to-cyan-50 border border-cyan-200 rounded-2xl shadow-sm">
             <h2 className="text-3xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-sky-600">
-              Interested in Speaking at ICECIT 2026?
+              Interested in Speaking at ICEBM 2026?
             </h2>
             <p className="text-lg text-[#334155] mb-4">
               We welcome proposals for keynote sessions, panel discussions, and
-              technical talks from leaders and researchers in emerging
-              technologies.
+              technical talks from leaders and researchers in business,
+              economics, innovation, and management sciences.
             </p>
             <p className="text-[#334155]">
               Reach out to us at{" "}
               <a
-                href="mailto:speakers@icecit2026.org"
+                href="mailto:speakers@icebm2026.org"
                 className="text-cyan-600 hover:underline font-semibold"
               >
-                speakers@icecit2026.org
+                speakers@icebm2026.org
               </a>{" "}
               to collaborate and share your expertise at this prestigious event.
             </p>

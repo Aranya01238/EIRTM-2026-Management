@@ -6,63 +6,69 @@ import { motion } from "framer-motion";
 
 const tracks = [
   {
-    category: "Cognitive Systems & Cognitive AI",
+    category: "Business",
     topics: [
-      "Applications of Cognitive Systems",
-      "AI & Machine Learning in Cognitive Frameworks",
-      "Cognitive Control and Data Science",
-      "Cognitive IoT and Manufacturing",
-      "Cognitive Radio, Risk Control, and Theory",
+      "Branding and Corporate Identity",
+      "Business Administration and Leadership",
+      "Business Law and Corporate Governance",
+      "Business Planning and Strategic Models",
+      "Competitive Strategy and Negotiation",
+      "Risk Management and Venture Capital",
     ],
   },
   {
-    category: "IoT & Data Science",
+    category: "Management",
     topics: [
-      "IoT and Blockchain",
-      "Big Data Analytics",
-      "Edge & Cloud Computing for IoT",
-      "IoT Systems Development and Methodologies",
-      "IoT Applications in Real-World Scenarios",
+      "Human Resource and Talent Management",
+      "Financial and Operations Management",
+      "Project and Change Management",
+      "Sustainability and Environment Management",
+      "Technology and Innovation Management",
+      "Quality Assurance and Strategic Planning",
     ],
   },
   {
-    category: "Information Technology & Software Systems",
+    category: "Accounting & Banking",
     topics: [
-      "Business Intelligence & Information Systems",
-      "Image Processing and Multimedia",
-      "Software Engineering and Distributed Systems",
-      "Cloud Computing and Data Analytics",
-      "AI in E-Commerce and Recommender Systems",
+      "Corporate and Cost Accounting",
+      "Accounting Ethics and Transparency",
+      "Banking Regulations and Risk Management",
+      "Monetary Policy and Financial Inclusion",
+      "Stock Market, Securities, and Investments",
+      "Cryptocurrencies and Islamic Banking",
     ],
   },
   {
-    category: "Mobile Communication & Networking",
+    category: "Finance",
     topics: [
-      "Ad Hoc and Vehicular Networks",
-      "Cyber Security and Cloud Networks",
-      "Mobile and Wireless IP",
-      "Telecommunication Systems",
-      "Satellite and Sensor Networks",
+      "Corporate and Managerial Finance",
+      "Behavioral and Quantitative Finance",
+      "Financial Risk Management",
+      "Entrepreneurial and Venture Capital Financing",
+      "Financial Regulations and Inclusion",
+      "Global and International Finance",
     ],
   },
   {
-    category: "Artificial Intelligence & Machine Learning",
+    category: "Economics",
     topics: [
-      "Explainable and Generative AI",
-      "Computer Vision & Transformers",
-      "AI in Healthcare and Cybersecurity",
-      "Federated & Quantum Machine Learning",
-      "AI for Multi-Agent and Industry Applications",
+      "Macroeconomics and Microeconomics",
+      "Fiscal Policy and Economic Development",
+      "Employment, Inflation, and Growth",
+      "Political and International Economics",
+      "Applied and Energy Economics",
+      "Human Capital and Income Distribution",
     ],
   },
   {
-    category: "Robotics and Its Applications",
+    category: "Marketing & E-Commerce",
     topics: [
-      "Autonomous and Industrial Robots",
-      "Human-Robot Interaction",
-      "Swarm and Learning Robotics",
-      "AI Integration in Robotics",
-      "Robotics for Sustainability and Healthcare",
+      "Digital and Social Media Marketing",
+      "Consumer Behavior and Brand Equity",
+      "AI and Big Data in Retail",
+      "Cross-Border and Mobile E-Commerce",
+      "E-Commerce Laws, Security, and Data Privacy",
+      "Smart Logistics and Omnichannel Systems",
     ],
   },
 ];
@@ -87,20 +93,22 @@ const CallForPapers = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-5xl font-extrabold mb-4 leading-tight tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-sky-500 to-blue-600 drop-shadow-[0_0_20px_rgba(56,189,248,0.5)]">
-            Call for Papers – ICECIT 2026
+            Call for Papers – ICEBM 2026
           </h1>
           <p className="text-lg text-[#1e293b] max-w-3xl mx-auto font-medium leading-relaxed">
             The{" "}
             <span className="text-cyan-600 font-semibold">
-              International Conference on Emerging Computing and Innovative
-              Technologies (ICECIT 2026)
+              International Conference on Economics, Business, and Management
+              (ICEBM 2026)
             </span>{" "}
             invites{" "}
             <span className="text-sky-600 font-semibold">
               original and unpublished research papers
             </span>
             , technical reports, and case studies from researchers,
-            academicians, and industry experts.
+            academicians, and industry professionals exploring modern trends,
+            innovations, and sustainable solutions in the global business
+            ecosystem.
           </p>
         </div>
 
@@ -112,17 +120,17 @@ const CallForPapers = () => {
                 <FileText className="h-12 w-12 text-cyan-500 mx-auto mb-4" />
               ),
               title: "Full Papers",
-              desc: "8–10 pages presenting complete research with full results and analysis.",
+              desc: "8–10 pages presenting comprehensive research, detailed methodologies, and analytical results.",
             },
             {
               icon: <Target className="h-12 w-12 text-sky-500 mx-auto mb-4" />,
               title: "Short Papers",
-              desc: "4–6 pages for work-in-progress or early-stage research ideas.",
+              desc: "4–6 pages for preliminary research, innovative ideas, and emerging work-in-progress studies.",
             },
             {
               icon: <Zap className="h-12 w-12 text-cyan-400 mx-auto mb-4" />,
               title: "Industry Papers",
-              desc: "4–8 pages highlighting practical applications and innovation cases.",
+              desc: "4–8 pages highlighting business case studies, industrial challenges, and real-world applications.",
             },
           ].map((item, i) => (
             <motion.div key={i} whileHover={{ scale: 1.05 }}>
@@ -140,7 +148,7 @@ const CallForPapers = () => {
         {/* Research Tracks */}
         <div className="mb-20">
           <h2 className="text-4xl font-bold text-center mb-10 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-sky-600 drop-shadow-[0_0_15px_rgba(6,182,212,0.5)]">
-            Research Tracks
+            Conference Tracks
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {tracks.map((track, i) => (
@@ -148,9 +156,7 @@ const CallForPapers = () => {
                 <Card className="p-6 border border-sky-100 bg-white hover:bg-cyan-50 rounded-xl shadow-sm transition-all hover:shadow-[0_0_20px_#06b6d4]">
                   <h3 className="text-xl font-bold mb-3 text-sky-700 flex items-center gap-2">
                     <Cpu className="h-5 w-5 text-cyan-500" />
-                    <span className="drop-shadow-[0_0_10px_rgba(56,189,248,0.4)]">
-                      {track.category}
-                    </span>
+                    <span>{track.category}</span>
                   </h3>
                   <ul className="list-disc list-inside text-[#334155] font-medium space-y-1 pl-3">
                     {track.topics.map((topic, idx) => (
@@ -182,35 +188,35 @@ const CallForPapers = () => {
               .
             </li>
             <li>
-              • Papers must be written in{" "}
-              <span className="text-sky-600 font-semibold">English</span>{" "}
-              following the IEEE format.
+              • Papers should follow the{" "}
+              <span className="text-sky-600 font-semibold">IEEE format</span>
+              and be written in English.
             </li>
             <li>
-              • Submit via the{" "}
+              • Submit through the{" "}
               <span className="text-cyan-600 font-semibold">
                 EasyChair submission system
               </span>
               .
             </li>
             <li>
-              • All papers undergo a{" "}
+              • All papers will undergo{" "}
               <span className="text-sky-600 font-semibold">
                 double-blind peer review
-              </span>{" "}
-              process.
+              </span>
+              .
             </li>
             <li>
-              • One author of each accepted paper must{" "}
+              • At least one author of each accepted paper must{" "}
               <span className="text-cyan-600 font-semibold">
                 register and present
               </span>{" "}
-              at the conference.
+              the paper at ICEBM 2026.
             </li>
           </ul>
         </Card>
 
-        {/* 🌟 Important Dates – Always Visible Timeline Journey */}
+        {/* Important Dates Timeline */}
         <section className="py-20">
           <h2 className="text-4xl font-bold text-center mb-16 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-sky-600 drop-shadow-[0_0_15px_rgba(6,182,212,0.5)]">
             Important Dates
@@ -234,27 +240,19 @@ const CallForPapers = () => {
                   viewport={{ once: true }}
                   className="relative flex flex-col items-center md:w-[200px] lg:w-[220px]"
                 >
-                  {/* Connecting line for mobile */}
                   {index !== 0 && (
                     <div className="md:hidden absolute -top-16 w-[2px] h-16 bg-gradient-to-b from-cyan-400 to-sky-400"></div>
                   )}
-
-                  {/* Node */}
                   <motion.div
                     whileHover={{ scale: 1.15 }}
                     transition={{ type: "spring", stiffness: 250 }}
                     className="relative flex items-center justify-center group mb-5"
                   >
-                    {/* Glow ring */}
                     <div className="absolute inset-0 rounded-full bg-cyan-400 blur-2xl opacity-40 animate-pulse"></div>
-
-                    {/* Main circle */}
                     <div className="relative w-16 h-16 rounded-full border-[3px] border-cyan-400 bg-white flex items-center justify-center shadow-[0_0_20px_#06b6d4] group-hover:shadow-[0_0_35px_#06b6d4] transition-all duration-300">
                       <Calendar className="w-7 h-7 text-cyan-600 drop-shadow-[0_0_6px_#06b6d4]" />
                     </div>
                   </motion.div>
-
-                  {/* Always-visible label */}
                   <div className="text-center">
                     <h4 className="text-sky-700 text-sm md:text-base font-semibold uppercase tracking-wide mb-1">
                       {item.event}
@@ -272,8 +270,8 @@ const CallForPapers = () => {
         {/* CTA Section */}
         <div className="text-center">
           <h3 className="text-2xl font-bold mb-6 text-sky-700">
-            Be Part of <span className="text-cyan-600">ICECIT 2026</span> —
-            Submit Your Work Today!
+            Be Part of <span className="text-cyan-600">ICEBM 2026</span> — Share
+            Your Research and Shape the Future of Business and Management!
           </h3>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button

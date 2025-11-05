@@ -79,7 +79,7 @@ const AdvisoryCommitteePage: React.FC = () => {
             <span className="font-semibold text-sky-600">
               Advisory Committee
             </span>{" "}
-            of <span className="font-semibold text-sky-600">ICECIT 2026</span>{" "}
+            of <span className="font-semibold text-sky-600">ICEBM 2026</span>{" "}
             includes internationally acclaimed professors and thought leaders
             who provide strategic and academic guidance to the conference.
           </p>

@@ -58,7 +58,7 @@ const Contact = () => {
           <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-sky-500 mx-auto mb-6 rounded"></div>
           <p className="text-lg text-slate-700 max-w-3xl mx-auto leading-relaxed">
             Have questions about{" "}
-            <span className="text-sky-600 font-semibold">ICECIT 2026</span>?
+            <span className="text-sky-600 font-semibold">ICEBM 2026</span>?
             Reach out to us through any of the following channels, or send us a
             message directly.
           </p>
@@ -155,18 +155,18 @@ const Contact = () => {
                     <h3 className="font-bold mb-1 text-sky-700">Email</h3>
                     <p>
                       <a
-                        href="mailto:info@icecit2026.org"
+                        href="mailto:info@icebm2026.org"
                         className="text-cyan-600 hover:underline"
                       >
-                        info@icecit2026.org
+                        info@icebm2026.org
                       </a>
                     </p>
                     <p>
                       <a
-                        href="mailto:support@icecit2026.org"
+                        href="mailto:support@icebm2026.org"
                         className="text-cyan-600 hover:underline"
                       >
-                        support@icecit2026.org
+                        support@icebm2026.org
                       </a>
                     </p>
                   </div>
@@ -207,37 +207,37 @@ const Contact = () => {
                 <p>
                   <strong>Paper Submission:</strong>{" "}
                   <a
-                    href="mailto:submission@icecit2026.org"
+                    href="mailto:submission@icebm2026.org"
                     className="text-cyan-600 hover:underline"
                   >
-                    submission@icecit2026.org
+                    submission@icebm2026.org
                   </a>
                 </p>
                 <p>
                   <strong>Registration:</strong>{" "}
                   <a
-                    href="mailto:registration@icecit2026.org"
+                    href="mailto:registration@icebm2026.org"
                     className="text-cyan-600 hover:underline"
                   >
-                    registration@icecit2026.org
+                    registration@icebm2026.org
                   </a>
                 </p>
                 <p>
                   <strong>Sponsorship:</strong>{" "}
                   <a
-                    href="mailto:sponsorship@icecit2026.org"
+                    href="mailto:sponsorship@icebm2026.org"
                     className="text-cyan-600 hover:underline"
                   >
-                    sponsorship@icecit2026.org
+                    sponsorship@icebm2026.org
                   </a>
                 </p>
                 <p>
                   <strong>Technical Support:</strong>{" "}
                   <a
-                    href="mailto:technical@icecit2026.org"
+                    href="mailto:technical@icebm2026.org"
                     className="text-cyan-600 hover:underline"
                   >
-                    technical@icecit2026.org
+                    technical@icebm2026.org
                   </a>
                 </p>
               </div>
